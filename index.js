@@ -5,6 +5,9 @@ function myFunction(){
     var field2= document.getElementById("field2");
     field1.innerHTML="Please enter your name";
     field2.innerHTML="Please enter your Email";
-    // document.getElementsByClassName(".input-control input").style.color= "red";
-    // var x= document.querySelectorAll(".in");
+    field1.style.color = "red";
+    field2.style.color = "red";
+
+    username.style.border = "1px red solid";
+    email.style.border = "1px red solid";
 }
