@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+   
+    <link rel="stylesheet" href="form.css">
+    
+    <style>
+    .form {
+        background-color: white;
+        height: 420px;
+        width: 350px;
+        margin: auto;
+        margin-top: 100px;
+        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.091);
+        border-radius: 10px;
+        border: none;
+    }
+    h1{
+        text-align: center;
+        color: rgba(0, 0, 0, 0.539);
+        font-weight: lighter;
+        padding-top: 30px;
+        
+    }
+    button{
+        background-color: rgba(0, 106, 255, 0.95);
+        width: 270px;
+        height: 40px;
+        margin-left: 35px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 20px;
+    }
+    body{
+        background-color: aliceblue;
+    }
+    input{
+        width: 260px;
+        height: 40px;
+        margin-left: 35px;
+        border-color:red;
+       
+    }
+    label{
+        
+        margin-left: 35px;
+    }
+    
+    
+
+#field1{
+    color:red;
+    margin-left: 35px;
+    
+}
+#field2{
+    color: red;
+    margin-left: 35px;
+}
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="form">
+        
+        <!-- <p>Please Enter your name</p> -->
+        <h1>Sign Up</h1>
+        <div class="input-control">
+        <label for="username">Name:</label>  <br>
+        <input type="text" id="username" name="name" placeholder="Enter your fullname" ><br><br>
+        
+        <p id="field1"></p>
+    </div>
+    <div class="input-control">
+        <label for="input">Email:</label> <br>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email address "><br><br>
+        <p id="field2"></p>
+        </div>
+        <button type="submit" onclick="myFunction();">Subscribe</button>
+ 
+    </div>
+   
+</div>
+ 
+</body>
+<script src="form.js"></script>
+</html>
